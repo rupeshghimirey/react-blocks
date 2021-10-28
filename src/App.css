@@ -1,5 +1,67 @@
 .App {
   text-align: center;
+  background-color: #dddddd;
+}
+.header {
+  background-color:  #6aa84f;
+  height:100px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: 2px solid black;
+}
+
+.advertisement {
+  background-color: #B4A7D5;
+  outline: 2px solid black;
+  min-height: 100px;
+  width:95%;
+  /* margin: 0 auto; */
+  margin:10px;
+  margin-left: 17px;
+}
+
+
+.subContents {
+  
+  background-color: #FFD866;
+  outline: 2px solid black;
+  min-width: 200px;
+  min-height: 400px;
+  margin: 10px;
+  
+
+  
+}
+.nav-main-body {
+  display: flex;
+  gap: 1.5em;
+  width: 70%;
+  margin: 0 auto;
+}
+.nav-main-subcontents {
+  display: flex;
+  gap: 1.5em;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.navigation {
+  background-color: #6fa8dc;
+  outline: 2px solid black;
+  margin-top: 10px;
+  max-height: 500px;
+  flex: 1
+}
+
+.main {
+  background-color: #E06666;
+  outline: 2px solid black;
+  min-height: 400px;
+  margin-top: 10px;
+  flex: 4;
 }
 
 .App-logo {
@@ -36,3 +98,5 @@
     transform: rotate(360deg);
   }
 }
+
+
